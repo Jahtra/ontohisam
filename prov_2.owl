@@ -1,0 +1,2152 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2019/4/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2019/4/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2019/4/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#binatang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_shaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kelakuan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#penistaan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sifat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#umum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adu_domba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#akal_nya_terbalik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alhamdulillah_sakit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anak_haram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anjing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antek_asing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antek_pki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arogan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#babi_ngepet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#babu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#babu_cina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#badut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bahlul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bajing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bajingan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bandot_tua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bangkrut_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bangsat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#batak_kafir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bau_comberan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bejad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bejat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bencong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berengsek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biadab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biadap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bikin_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bloon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bodoh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bohong_sakit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#borokan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#botak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brengsek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bucin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buncit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buta_agama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buzzer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cacing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caleg_aneh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#capres_abadi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebong_kafir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebong_kampret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebong_koplak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cebong_nyasar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ceking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cepat_mati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cepet_koit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#china"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chubby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#congean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cungkring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dekil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dengki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dibohongi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dodol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dongok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duda_lg_sakit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dungu_dipelihara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fans_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gak_becus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gak_berguna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gak_guna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gak_waras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gembrot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gemuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gendut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goblok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goblokers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#guoblok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#haram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hawa_setarakan_dgn_binatang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hobi_marah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hobi_ngebool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#homo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iblis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#idiot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iq_cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iq_dibawah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iq_jongkok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iq_nya_jongkok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iri_dengki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irit_pelit_bodoh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jancok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#janda_bangsatt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jejelin_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jendral_kafir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jenong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jidat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jokodok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jomblo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jongosnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jual_agama_politik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kacung_nya_prabowo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kacung_prabowo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kafir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kalah_kalah_kalah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kambing_hitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampret2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampreters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampungan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kanjut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#karya_bangsat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#katak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#katro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kaum_komunis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kaum_korup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kayak_anak_anak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kayak_orang_kebelet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kecebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kedungannya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kedunguan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kedunguannya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kegoblokan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelakuan_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keledai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelompok_terlarang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kempot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kepala_cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kepala_kerbau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keterbelakangan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ketularan_goblok_junjungannya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#koalisi_homo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#koalisi_penculik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#koalisiprabohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kodok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#komprador_asing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#komunis_hantu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kontol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#korengan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kotor_biadap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kpk_cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kulit_hitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kurus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#laknat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lesbian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lgbt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mak_dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#makan_dri_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mampus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mampus_aja_lu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mampus_kelelep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mancung_kedalam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mandul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manusia_fosil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manusia_robot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manusia_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#masa_bayaran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mati_keuntungan_bagiku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mencla_mencle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mendoakan_cancer_lambung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menjijikkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mental_kere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merendahkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#minim_wawasan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miskin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monyet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monyet_berpeci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#muka_butek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mulut_busuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mulut_penuh_dosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#munafik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#murahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#murtad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#murtadkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#muslim_abangan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#narasi_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ngak_level"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nggak_berguna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ngibul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ngibulnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#norak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nyinyir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nyogok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nyogok_rakyatnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oknum2_zolim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ompong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oneng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#onta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orang_dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orang_gila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orang_munafik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orientasinya_uang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_cebongers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_cingkrang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_kecilnya_agak2_miring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_kerdil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_kosong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_matre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_mesum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_nya_belum_sempurna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_tai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otak_udang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#otaknya_udah_kecuci"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pamer_kegoblokan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#partai_korupsi_sapi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#partai_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pecundang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pekok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pelanggar_ham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembunuh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemerintah_babu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemuas_nafsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemuja_monas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penakut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pencitraan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penculik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pendengki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pendukung_mafia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pendusta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengecut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penghisap_kekayaan_nkri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penghuni_rsj"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengkhianat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penjahat_kelamin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penjilat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyebar_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyebar_penyakit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pesek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pidatokebangsatanprabohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#planga_plongo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#politikus_codot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#politisi_munafik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prabohoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pradungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pro_asing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#propaganda_murahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#provokator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#racun_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raja_bohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raja_cebong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rakus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rakus_jabatan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rakyat_pengemis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rela_jilat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rendahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rusak_dimata_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sakit_jiwa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salamsokpurapurasehat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sampah_kampret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sampah_masyarakat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sampahmasyarakat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sampean_kalah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sederajat_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sempak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sempakkk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#setan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#si_duda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#si_janda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#si_mesum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#si_otak_mesum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sialan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sihomo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#siluman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#siluman_kampret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sinting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skrg_sampah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sok_bacot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sok_ganteng"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#songong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_memfitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_mengkafirkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sumatera_babi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#syiah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#syirik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#taek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#takabur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#takut_dicakar_ibu2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#team_hoax_sara_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tembem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempramental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#termakan_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tiongkok_cina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tni_lemah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tolol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trio_maut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_bekam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_bohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_kayu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#uang_bodoh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wasit_jancok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wowocapresabadi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yahudi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zionis"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#adu_domba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#akal_nya_terbalik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#anak_haram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#anjing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#antek_asing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#antek_pki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#arogan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#babi_ngepet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#babu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#babu_cina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bacod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bacot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#badut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#bahlul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#bajing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bajingan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#banci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#bandot_tua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#bangsat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#batak_kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#bau_comberan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#bego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bejad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bejat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#belang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#bencong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#berengsek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#biadab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#biadap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bikin_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#bloon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#bodoh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#bohong_sakit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#borokan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#botak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#brengsek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#bucin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#buncit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#buta_agama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#buzzer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#cacing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#caleg_aneh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#capres_abadi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#cebol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#cebong_kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#cebong_koplak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#cebong_nyasar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#ceking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#china"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#chubby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#cina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#conge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#congean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#cungkring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#dekil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#dengki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#deso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#dibohongi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#dodol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#dongok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#dungu_dipelihara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#fake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#fans_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#gak_becus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#gak_berguna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#gak_guna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#gak_waras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#gembrot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#gemuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#gendut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#gila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#goblok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#goblokers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#guoblok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#haram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#hobi_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#hobi_ngebool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#homo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#iblis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#idiot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#iq_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#iq_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#iq_dibawah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#iq_jongkok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#iq_nya_jongkok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#iri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#iri_dengki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#irit_pelit_bodoh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#jancok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#janda_bangsatt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#jendral_kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#jenong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#jidat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#jokodok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#jokodok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#jomblo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#jongosnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kambing_hitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#kampang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kampret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kampreters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#kampungan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#kanjut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#karya_bangsat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#katak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#katro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#kaum_komunis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#kaum_korup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#kayak_anak_anak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#kayak_orang_kebelet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kecebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#kedungannya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#kedunguan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#kedunguannya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#kegoblokan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#keji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#kelakuan_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#keledai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#kempot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kepala_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kepala_kerbau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#kere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#keterbelakangan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#koalisi_homo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#koalisi_penculik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kodok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#komprador_asing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#komunis_hantu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#kontol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#korengan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#kotor_biadap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#kpk_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#kulit_hitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#kurus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#laknat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#lesbian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#lgbt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#loser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#mak_dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#maling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#mampus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#mancung_kedalam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#mandul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#manusia_fosil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#manusia_robot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#manusia_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#masa_bayaran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#memek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#mencla_mencle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#menjijikkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#mental_kere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#merendahkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#minim_wawasan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#miskin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#monyet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#monyet_berpeci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#muka_butek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#mulut_busuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#mulut_penuh_dosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#munafik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#murahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#murtad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#murtadkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#muslim_abangan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#narasi_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#ngak_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#nggak_berguna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#ngibul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#ngibulnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#norak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#nyinyir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#nyogok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#oknum2_zolim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#ompong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#oneng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#onta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#oon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#orang_dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#orang_gila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#orang_munafik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#orientasinya_uang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#otak_cebongers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_cingkrang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_kerdil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_kosong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#otak_matre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#otak_mesum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#otak_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#otak_tai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#otak_udang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pamer_kegoblokan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#partai_korupsi_sapi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#partai_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#pecundang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#pekok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#pelanggar_ham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#pemarah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pembohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pembunuh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pemerintah_babu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#pemerintah_babu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#pemuas_nafsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pemuja_monas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#penakut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pencitraan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#penculik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#pendengki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#pendusta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#pengecut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#penghuni_rsj"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#pengkhianat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#penjahat_kelamin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#penjilat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#penyebar_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#penyebar_penyakit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#pesek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#pki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#planga_plongo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#politikus_codot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#politikus_codot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#politisi_munafik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#pradungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#prestasi_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#pro_asing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#provokator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#racun_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#raja_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#raja_cebong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#rakus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#rakus_jabatan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#rakyat_pengemis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#rela_jilat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#rendahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sakit_jiwa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#sampah_kampret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sampah_kampret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sampah_masyarakat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sampahmasyarakat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sederajat_sampah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sempak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sempakkk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#setan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#si_duda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#si_janda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#si_mesum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#si_otak_mesum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sialan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#sihomo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#siluman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#siluman_kampret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#sinting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#sok_bacot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#sok_ganteng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#songong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#suka_fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#suka_memfitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#suka_mengkafirkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#binatang"/>
+        <NamedIndividual IRI="#sumatera_babi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#syiah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#syirik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#taek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#tai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#takabur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#takut_dicakar_ibu2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#team_hoax_sara_fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_shaming"/>
+        <NamedIndividual IRI="#tembem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#tempramental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#tiongkok_cina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#tni_lemah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sifat"/>
+        <NamedIndividual IRI="#tolol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#trio_maut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#tukang_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelakuan"/>
+        <NamedIndividual IRI="#tukang_fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#waria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#wasit_jancok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#umum"/>
+        <NamedIndividual IRI="#wowocapresabadi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#yahudi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#penistaan"/>
+        <NamedIndividual IRI="#zionis"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
